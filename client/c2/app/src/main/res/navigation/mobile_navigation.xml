@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.keelim.free.ui.main.personal.PersonalFragment"
+        android:label="@string/menu_personal"
+        tools:layout="@layout/fragment_personal" >
+        <action
+            android:id="@+id/action_nav_home_to_recommendationFragment"
+            app:destination="@id/recommendationFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_dashboard"
+            app:destination="@id/nav_dashboard" />
+        <action
+            android:id="@+id/action_nav_home_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_serviceFragment"
+            app:destination="@id/serviceFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.keelim.free.ui.setting.AboutFragment"
+        android:label="AboutFragment" />
+
+    <dialog
+        android:id="@+id/settingFragment"
+        android:name="com.keelim.free.ui.setting.SettingFragment"
+        android:label="SettingFragment" />
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.keelim.free.ui.main.dash.DashFragment"
+        android:label="fragment_dash"
+        tools:layout="@layout/fragment_dash" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.keelim.free.ui.main.dash.search.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.keelim.free.ui.setting.ServiceFragment"
+        android:label="ServiceFragment" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.keelim.free.ui.main.notification.NotificationFragment"
+        android:label="NotificationFragment" />
+    <fragment
+        android:id="@+id/recommendationFragment"
+        android:name="com.keelim.free.ui.main.recommendation.RecommendationFragment"
+        android:label="RecommendationFragment" />
+
+</navigation>

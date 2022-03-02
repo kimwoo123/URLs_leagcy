@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#ffab00</color>
+    <color name="colorAccent">#ffdd4b</color>
+    <color name="colorPrimaryDark">#c67c00</color>
+    <color name="main_text_color">#121212</color>
+    <color name="black">#121212</color>
+    <color name="error">#DAAF2D</color>
+    <color name="main_bg_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="preview_edit_button_parent_bg">#ffffff</color>
+    <color name="main_color">#fd6a7f</color>
+    <color name="sub_color">#ff9cae</color>
+
+    <color name="icon_normal_color">#121212</color>
+    <color name="bg_for_alpha_image">#EEEEEE</color>
+
+    <color name="ucrop_toolbar_text_color">#121212</color>\
+
+    <color name="divider">#CCCCCC</color>
+    <color name="ic_launcher">#304ffe</color>
+    <color name="colorDivider">#ECECEC</color>
+    <color name="light_gray">#FFCFCFCF</color>
+    <color name="dark_gray">#FF707070</color>
+    <color name="transparent">#000000</color>
+
+    <color name="orange">#FA764D</color>
+    <color name="orange_w">#FFAB91</color>
+    <color name="bg_orange">#FFAD03</color>
+
+    <!--theme colors-->
+    <color name="owl_yellow_200">#ffeb46</color>
+    <color name="owl_yellow_400">#ffc000</color>
+    <color name="owl_yellow_500">#ffde03</color>
+    <color name="owl_yellow_dark_primary">#242316</color>
+
+    <color name="owl_blue_200">#91a4fc</color>
+    <color name="owl_blue_700">#0336ff</color>
+    <color name="owl_blue_800">#0035c9</color>
+    <color name="owl_blue_dark_primary">#1c1d24</color>
+
+    <color name="owl_pink_200">#ff7597</color>
+    <color name="owl_pink_500">#ff0266</color>
+    <color name="owl_pink_600">#d8004d</color>
+    <color name="owl_pink_dark_primary">#24191c</color>
+
+    <color name="immersive_sys_ui">#33000000</color>
+    <color name="nav_bar">@color/immersive_sys_ui</color>
+</resources>

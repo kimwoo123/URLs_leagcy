@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/drawer_basic">
+        <item
+            android:id="@+id/notificationFragment"
+            android:icon="@drawable/ic_baseline_circle_notifications_24"
+            android:title="@string/menu_notification" />
+
+        <item
+            android:id="@+id/recommendationFragment"
+            android:icon="@drawable/gitlab"
+            android:title="추천 URL" />
+    </group>
+
+    <group
+        android:id="@+id/drawer_features"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/menu_dashboard" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_personal" />
+
+
+        <item
+            android:id="@+id/serviceFragment"
+            android:icon="@drawable/gitlab"
+            android:title="서비스 이동하기" />
+    </group>
+</menu>
